@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width;height=device-height;user-scalable=yes"/>
+		
+		<title>Erstellen</title>		
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	
+	<body>
+			<div id="background">
+				<a href="index.html"><div id="Info"><p>Zurück zum Hauptmenü</p></div></a>
+				<div id="Info">Gebe hier die Eckdaten deiner Veranstalltung ein:</div>
+
+					<form action="create.php" method="post" align="center">
+					 
+							<p>	Veranstalltungsname:<br />
+							<input type="Text" name="VName">
+							</p>
+							
+							<p>	Datum:<br />
+							<input type="Text" name="VDatum">
+							</p>
+							
+							<p>	Beginn (Uhrzeit):<br />
+							<input type="Text" name="VZeit">
+							</p>
+							
+							<p> Sonstige Infos<br />
+							<textarea id="Text" name="Info" cols="20" rows="15"></textarea>
+							</p>
+					 
+							<input type="Submit" name="" value="speichern">
+
+					</form>
+
+
+			</div>
+	</body>
+</html>
