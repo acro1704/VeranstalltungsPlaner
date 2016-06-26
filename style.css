@@ -1,0 +1,43 @@
+	html, body 
+	{
+		margin: 0;
+    	padding: 0;
+    	text-align:center;
+
+	}
+	
+	#background
+	{
+		margin: auto;
+		margin-top:10px;
+		height: 800px;
+		width: 200px;
+		border-radius: 25px;
+    	border: 2px solid #73AD21;
+		background-color: white;
+		padding: 10px 10px 10px 10px;
+		text-align:center;
+
+	}
+	#Info
+	{
+		height: 50px;
+		width: 100%;
+		border: 2px solid #73AD21;
+		background-color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align:center;
+
+	}
+	#Option
+	{
+		height: 50px;
+		width: 100%;
+		border: 2px solid #73AD21;
+		background-color: white;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		text-align:center;
+
+	}
