@@ -2,6 +2,7 @@
 	//New Post
 	if ( $_POST['Info'] <> "" )
 	{
+		//Zuffalszahl für Zufalslink erstellen damit es keine Events doppelt gibt
 		$ID = rand(10000, 99999);
 		$LINK = ".php";
 		$IDLINK = $ID . $LINK;
@@ -10,6 +11,7 @@
 		$handlelisting = fopen ( "listing.html", "a" );
 	   	//write from form in stream
 	   	
+	   	//die neue HTML seite erstellen mit den Infos aus dem Formular
 	   	fwrite ( $handle, "<html> 
 	   	<head> <meta charset='UTF-8' />
 		<meta name='viewport'' content='width=device-width;height=device-height;user-scalable=yes''/>
