@@ -1,7 +1,7 @@
 # VeranstalltungsPlaner
 Webanwendung für Systemunabhängiges Planen und Einladen für Veranstalltungen
 
-#Kurzanleitung
+# Kurzanleitung
 Beim aufruf der seite startet man in der index.html diese ist ein Menü.
 Über den Button EventErstellen kommt man in die create.html.
 Diese ist ein Formular dessen inhalt an create.php "übergeben" wird.
