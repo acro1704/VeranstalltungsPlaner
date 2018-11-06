@@ -1,4 +1,4 @@
-!Old and outdated.
+#!old and outdated!
 
 # VeranstalltungsPlaner
 Webanwendung für Systemunabhängiges Planen und Einladen für Veranstalltungen
